@@ -6,10 +6,10 @@
  */
 int main(void)
 {
-char alpha;
+	char alp;
 
-for (alpha = 'a' ; alpha <= 'z' ; alpha++)
-if (alpha != 'q' && alpha != 'e')
-putchar(alpha);
+	for (alp = 'a' ; alp <= 'z' ; alp++)
+		if (alp != 'q' && alp != 'e')
+			putchar(alp);
 return (0);
 }
