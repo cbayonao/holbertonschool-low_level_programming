@@ -1,5 +1,8 @@
 #include "holberton.h"
-
+/**
+ * print_alphabet_x10 - writes the alphabet x 10
+ * Return: Without return
+ */
 void print_alphabet_x10(void)
 {
 	int con;
