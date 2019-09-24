@@ -1,6 +1,7 @@
 #include "holberton.h"
 /**
- * _islower - writes the character c to stdout
+ * _islower - calls the function _islower.
+ * @c:integer
  * Return: No return.
  */
 int _islower(int c)
@@ -13,4 +14,4 @@ int _islower(int c)
 	{
 		return (0);
 	}
-} 
+}
