@@ -12,14 +12,24 @@ void times_table(void)
 	for (column = 0; column < 10; column++)
 	{
 		_putchar('0');
-		rank = 1;
-		for (rank; rank < 10; rank++)
-
+		for (rank = 1; rank < 10; rank++)
 		{
-			mult = (column * rank);
-			_putchar(mult);
+			mult = column * rank;
+			if (mult < 10)
+			{
+				_putchar(',');
+				_putchar(' ');
+				_putchar(' ');
+				_putchar((mult) + '0');
+			}
+			else
+			{
+				_putchar(',');
+				_putchar(' ');
+				_putchar((mult / 10) + '0');
+				_putchar((mult % 10) + '0');
+			}
 		}
-		rank++;
+		_putchar('\n');
 	}
-	_putchar('\n');
 }
