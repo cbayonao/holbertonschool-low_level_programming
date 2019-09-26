@@ -1,6 +1,6 @@
 #include "holberton.h"
 /**
- * add - Check the function
+ * print_numbers - Check the function
  * Return: no return
  */
 void print_numbers(void)
