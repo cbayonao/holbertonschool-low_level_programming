@@ -1,7 +1,7 @@
 #include "holberton.h"
 /**
  * print_square - Check the function
- * @n: integer.
+ * @size: integer.
  * Return: no return
  */
 void print_square(int size)
