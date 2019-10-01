@@ -1,6 +1,6 @@
 #include "holberton.h"
 /**
-* reset_to_98 - set the integer to 402
+* swap_int - chage the values of the variables
 * @a: integer
 * @b: integer
 * Return: no return
