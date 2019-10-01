@@ -1,7 +1,7 @@
 #include "holberton.h"
 /**
 * puts2 - put the contain of the variable in reverse
-* @str: character
+* @str: character.
 * Return: No return.
 */
 void puts2(char *str)
