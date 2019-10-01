@@ -7,12 +7,10 @@
 void puts2(char *str)
 {
 	int x;
-	int y;
+	int y = 0;
 	int z;
 
 	for (x = 0; str[x] != '\0'; x++)
-	
-	y = 0;
 	while (y != x)
 	{
 		if (z == 0)
