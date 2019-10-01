@@ -2,7 +2,7 @@
 /**
 * print_rev - put the contain of the variable in reverse
 * @s: character
-* Return: return the length of the string.
+* Return: No return.
 */
 void rev_string(char *s)
 {
