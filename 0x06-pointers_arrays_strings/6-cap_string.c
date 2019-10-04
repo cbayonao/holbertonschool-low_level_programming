@@ -1,23 +1,25 @@
 #include "holberton.h"
 /**
-* string_toupper - put the contain of the variable in reverse
+* cap_string - put the contain of the variable in reverse
 * @s: character
 * Return: No return.
 */
 char *cap_string(char *s)
 {
-	int i;
+	int a, b;
+	int H[] = {',', ';', '.', '!', '?', '"', '(', ')', '{', '}', '\n', ' ', '\t'};
 
-	for (i = 0; s[i] != '\0'; i++)
+	for (a = 0; s[a] != '\0'; a++)
 	{
-		if (s[i] >= 'a' && s[i] <= 'z' && s[i] == ' ')
+		for (b = 0; H[b] != '\0'; b++)
 		{
-			if (s[i] == ',' || s[i] == ';' || s[i] == '.' || s[i] =='!' || s[i] == '?' 
-			|| s[i] == '"' || s[i] == '(' || s[i] == ')' || s[i] == '{' || s[i] == '}')
+			if ((s[a] == H[b]) && (s[a + 1] >= 'a' && s[a + 1] <= 'z'))
 			{
-				{
-					s[i + 1] = s[i + 1] - 32;
-				}
+				s[a + 1] = s[a + 1] - 32;
+			}
+			else if (s[0] >= 'a' && s[0] <= 'z')
+			{
+				s[0] = s[0] - 32;
 			}
 		}
 	}
