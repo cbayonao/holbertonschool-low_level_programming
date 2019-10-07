@@ -3,7 +3,6 @@
 * _strstr - The name of the function.
 * @haystack:  the contain of the variable in reverse
 * @needle: character
-* @n: integer unsigned
 * Return: s.
 */
 char *_strstr(char *haystack, char *needle)
@@ -21,7 +20,7 @@ char *_strstr(char *haystack, char *needle)
 		if (!*patron)
 			return (ini);
 
-		haystack = ini +1;
+		haystack = ini + 1;
 	}
 	return ('\0');
 }
