@@ -1,8 +1,8 @@
 #include "holberton.h"
 /**
- * _puts_recursion - check the code for Holberton School students.
+ * _puts_recursion - check the code
  *@s : character
- * Return: 
+ * Return: recursion
  */
 void _puts_recursion(char *s)
 {
