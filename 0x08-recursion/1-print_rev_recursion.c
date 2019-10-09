@@ -1,8 +1,8 @@
 #include "holberton.h"
 /**
  * _print_rev_recursion - check the code for Holberton School students.
- *@s: reverse.
- * Return: N\a.
+ *@s: character.
+ * Return: .cccc
  */
 void _print_rev_recursion(char *s)
 {
