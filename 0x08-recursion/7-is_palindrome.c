@@ -37,9 +37,8 @@ int _compare(char *s, int l)
  */
 int is_palindrome(char *s)
 {
-	int a, res;
+	int a;
 
 	a = largo(s);
-	res = _compare(s, a - 1);
-	return (res);
+	return (_compare(s, a - 1));
 }
