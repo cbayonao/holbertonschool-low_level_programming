@@ -13,12 +13,12 @@ int main(int argc, char *argv[])
 	if ((argc - 1) < 2)
 	{
 		printf("Error\n");
-		return(1);
+		return (1);
 	}
 	else
 		num1 = atoi(argv[1]);
 		num2 = atoi(argv[2]);
 		res = num1 * num2;
 		printf("%i\n", res);
-		return(0);
+		return (0);
 }
