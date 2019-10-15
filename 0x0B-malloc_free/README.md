@@ -25,41 +25,44 @@ by Julien Barbier, co-founder at Holberton School
 * The prototypes of all your functions and the prototype of the function _putchar should be included in your header file called holberton.h
 * Don’t forget to push your header file
 
-### More Info
+### Workshop Development
 
-You do not have to learn about calloc and realloc.
+### [0. Float like a butterfly, sting like a bee](./0-create_array.c)
+* Write a function that creates an array of chars, and initializes it with a specific char.
+```
+Give Examples
+```
 
+### [1. The woman who has no imagination has no wings](./1-strdup.c)
+* Write a function that returns a pointer to a newly allocated space in memory, which contains a copy of the string given as a parameter.
+```
+Give Examples
+```
+
+### [2. He who is not courageous enough to take risks will accomplish nothing in life](./2-str_concat.c)
+* Write a function that concatenates two strings.
 ```
 Give examples
 ```
 
-## Running the tests
-
-Explain how to run the automated tests for this system
-
-### Break down into end to end tests
-
-Explain what these tests test and why
-
+### [3. If you even dream of beating me you'd better wake up and apologize](./3-alloc_grid.c)
+* Write a function that returns a pointer to a 2 dimensional array of integers.
 ```
-Give an example
+Give examples
 ```
 
-### And coding style tests
-
-Explain what these tests test and why
-
+### [4. It's not bragging if you can back it up](./4-free_grid.c)
+* Write a function that frees a 2 dimensional grid previously created by your alloc_grid function.
 ```
-Give an example
+Give examples
 ```
 
-## Deployment
+### [5. It isn't the mountains ahead to climb that wear you out; it's the pebble in your shoe](./5-argstostr.c)
+* Write a function that concatenates all the arguments of your program.
 
-Add additional notes about how to deploy this on a live system.
-
-## Contributing
-
-Please read for details on our code of conduct, and the process for submitting pull requests to us.
+```
+Give examples
+```
 
 ## Authors
 
@@ -67,6 +70,7 @@ Please read for details on our code of conduct, and the process for submitting p
 
 ## Acknowledgments
 
+* Follow the framework
 * Hat tip to anyone whose code was used
 * Inspiration
 * etc
