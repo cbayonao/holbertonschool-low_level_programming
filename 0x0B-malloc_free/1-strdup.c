@@ -17,6 +17,8 @@ char *_strdup(char *str)
 	{
 		src = malloc(len + 1);
 		p = src;
+		if (src == '\0')
+			return ('\0');
 	}
 	while (*str)
 		*p++ = *str++;
