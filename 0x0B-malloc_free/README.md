@@ -59,9 +59,46 @@ Give examples
 
 ### [5. It isn't the mountains ahead to climb that wear you out; it's the pebble in your shoe](./5-argstostr.c)
 * Write a function that concatenates all the arguments of your program.
+* Prototype: char \*argstostr(int ac, char **av);
+* Returns NULL if ac == 0 or av == NULL
+* Returns a pointer to a new string, or NULL if it fails
+* Each argument should be followed by a \n in the new string
 
 ```
-Give examples
+julien@ubuntu:~/0x0a. malloc, free$ cat 5-main.c
+#include "holberton.h"
+#include <stdio.h>
+#include <stdlib.h>
+
+/**
+ * main - check the code for Holberton School students.
+ *
+ * Return: Always 0.
+ */
+int main(int ac, char *av[])
+{
+    char *s;
+
+    s = argstostr(ac, av);
+    if (s == NULL)
+    {
+        return (1);
+    }
+    printf("%s", s);
+    free(s);
+    return (0);
+}
+julien@ubuntu:~/0x0a. malloc, free$ gcc -Wall -pedantic -Werror -Wextra 5-main.c 5-argstostr.c -o args
+julien@ubuntu:~/0x0a. malloc, free$ ./args I will "show you" how great I am
+./args
+I
+will
+show you
+how
+great
+I
+am
+julien@ubuntu:~/0x0a. malloc, free$
 ```
 
 ## Authors
