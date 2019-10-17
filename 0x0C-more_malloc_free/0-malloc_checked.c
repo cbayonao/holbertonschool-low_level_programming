@@ -1,6 +1,8 @@
+#include "holberton.h"
 #include <stdio.h>
 #include <stdlib.h>
-#include "holberton.h"
+#include <limits.h>
+
 /**
  * malloc_checked - check the code for Holberton School students.
  * @b: int
@@ -8,9 +10,12 @@
  */
 void *malloc_checked(unsigned int b)
 {
-	void *p = malloc(b);
+	void *H = malloc(b);
 
-	if (p == NULL)
+	if (c == NULL)
+	{
 		exit(98);
-return (p);
+	}
+
+	return (H);
 }
