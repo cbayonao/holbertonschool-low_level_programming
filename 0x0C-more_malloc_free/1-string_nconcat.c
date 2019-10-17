@@ -14,8 +14,10 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	unsigned int x = 0, y = 0, i = 0;
 	char *array;
 
-	if (s1 == NULL || s2 == NULL)
-		s1 = s2 = "";
+	if (s1 == NULL)
+		s1 = "";
+	if (s2 == NULL)
+		s2 = "";
 
 	for (; s1[x] != '\0'; x++)
 		;
