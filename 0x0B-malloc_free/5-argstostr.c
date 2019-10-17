@@ -2,26 +2,32 @@
 #include <stdio.h>
 #include <stdlib.h>
 /**
- * argstostr - function that concatenates the arguments on your program
- * @ac: int
- * @av: char
- * Return: char
+ * _strlen - function that concatenates the arguments on your program
+ * @str: pointer
+ * Return: i
  */
 int _strlen(char *str)
 {
 
 	int i;
+
 	for (i = 0; str[i] != '\0'; i++)
 		;
 	return (i);
 }
+/**
+ * argstostr - function that concatenates the arguments on your program
+ * @ac: int
+ * @av: char
+ * Return: char
+ */
 char *argstostr(int ac, char **av)
 {
 	int len, i1, i2, sum;
 	char *x;
 
 	if (ac == 0 || av == '\0')
-		return(NULL);
+		return (NULL);
 	for (len = 0; len < ac; len++)
 	{
 		sum = sum + _strlen(av[len]);
