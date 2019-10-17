@@ -1,12 +1,10 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include "holberton.h"
-
 /**
- * malloc_checked - function that alocate memory using malloc.
- * @b: the size of the memory to print
- *
- * Return: othing.
+ * malloc_checked - check the code for Holberton School students.
+ * @b: int
+ * Return: Always 0.
  */
 void *malloc_checked(unsigned int b)
 {
