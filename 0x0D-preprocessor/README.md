@@ -58,13 +58,29 @@ julien@ubuntu:~/0x0c. macro, structures$
 * Write a program that prints the name of the file it was compiled from, followed by a new line.
 * You are allowed to use the standard library
 ```
-julien@ubuntu:~/0x0c. macro, structures$ gcc -Wall -pedantic -Werror -Wextra 2-main.c -o c
-julien@ubuntu:~/0x0c. macro, structures$ ./c 
-2-main.c
-julien@ubuntu:~/0x0c. macro, structures$ cp 2-main.c 02-main.c
-julien@ubuntu:~/0x0c. macro, structures$ gcc -Wall -pedantic -Werror -Wextra 02-main.c -o cc
-julien@ubuntu:~/0x0c. macro, structures$ ./cc
-02-main.c
+julien@ubuntu:~/0x0c. macro, structures$ cat 1-main.c
+#include "1-pi.h"
+#include "1-pi.h"
+#include <stdio.h>
+
+/**
+ * main - check the code for Holberton School students.
+ *
+ * Return: Always 0.
+ */
+int main(void)
+{
+    float a;
+    float r;
+
+    r = 98;
+    a = PI * r * r;
+    printf("%.3f\n", a);
+    return (0);
+}
+julien@ubuntu:~/0x0c. macro, structures$ gcc -Wall -pedantic -Werror -Wextra 1-main.c -o b
+julien@ubuntu:~/0x0c. macro, structures$ ./b
+30171.855
 julien@ubuntu:~/0x0c. macro, structures$
 ```
 
