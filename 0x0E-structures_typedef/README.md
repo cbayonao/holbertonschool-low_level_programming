@@ -61,7 +61,7 @@ julien@ubuntu:~/0x0d. structures, typedef$
 
 ### [1. A dog is the only thing on earth that loves you more than you love yourself](./1-init_dog.c)
 * Write a function that initialize a variable of type struct dog
-* Prototype: void init_dog(struct dog *d, char *name, float age, char */*owner);
+* Prototype: void init_dog(struct dog *d, char *name, float age, char /*owner);
 
 ```
 julien@ubuntu:~/0x0d. structures, typedef$ cat 1-main.c
