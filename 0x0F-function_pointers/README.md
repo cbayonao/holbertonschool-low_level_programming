@@ -225,10 +225,9 @@ julien@ubuntu:~/0x0e. Function pointers$ ./c
 2
 julien@ubuntu:~/0x0e. Function pointers$ 
 ```
-
 ### [3. A goal is not always meant to be reached, it often serves simply as something to aim at](./3-calc.h)
 # Write a program that performs simple operations.
-```
+
 ## Authors
 
 * **Camilo Bayona** - *Initial work* - [cbayonao](https://github.com/cbayonao)
