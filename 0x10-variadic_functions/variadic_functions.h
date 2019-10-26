@@ -15,7 +15,7 @@ void print_all(const char * const format, ...);
  */
 typedef struct select
 {
-	char c;
+	char *c;
 	void (*f)(va_list listed);
 } typarg;
 #endif
