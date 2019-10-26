@@ -1,5 +1,4 @@
 #include "variadic_functions.h"
-
 /**
  * printch - print a character
  * @ap: My list like parameters
@@ -55,20 +54,21 @@ void print_all(const char * const format, ...)
 	char *separata = "";
 
 	typarg tyar[] = {
-		{'c', printch},
-		{'i', printint},
-		{'f', printfloat},
-		{'s', printstring}
+		{"c", printch},
+		{"i", printint},
+		{"f", printfloat},
+		{"s", printstring},
+		{NULL, NULL}
 	};
 	count1 = 0;
 	va_start(ap, format);
 
-	while (format[count1] != '\0')
+	while (format && format[count1])
 	{
 		count2 = 0;
 		while (count2 < 4)
 		{
-			if (format[count1] == tyar[count2].c)
+			if (format[count1] == *tyar[count2].c)
 			{
 				printf("%s", separata);
 				tyar[count2].f(ap);
