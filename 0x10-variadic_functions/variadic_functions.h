@@ -11,5 +11,5 @@ typedef struct select
 {
 	char c;
 	void (*f)(va_list listed);
-}typarg;
+} typarg;
 #endif
