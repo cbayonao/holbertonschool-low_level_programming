@@ -44,6 +44,7 @@ typedef struct list_s
     struct list_s *next;
 } list_t;
 ```
+
 ### Workshop Development
 
 ### [0. Print list](./0-print_list.c)
@@ -52,19 +53,19 @@ typedef struct list_s
 * Return: the number of nodes
 * Format: see example
 * If str is NULL, print [0] (nil)
-* You are allowed to use prin
-
+* You are allowed to use printf
+```
 Examples here!
-
+```
 
 ### [1. List lengt](./1-list_len.c)
 #### Write a function that returns the number of elements in a linked list_t list.
 
 * Prototype: size_t list_len(const list_t *h);
-
-    ```
+```
 Examples here!
 ```
+
 ### [2. Add node](./2-add_node.c)
 #### Write a function that adds a new node at the beginning of a list_t list.
 
@@ -75,6 +76,7 @@ Examples here!
 ```
 Examples here!
 ```
+
 ### [3. Add node at the end](./3-add_node_end.c)
 #### Write a function that adds a new node at the end of a list_t list.
 * Prototype: list_t *add_node_end(list_t \**head, const char *str)
@@ -84,6 +86,7 @@ Examples here!
 ```
 Examples here!!
 ```
+
 ### [4. Free list](./4-free_list.c)
 #### Write a function that frees a list_t list.
 
@@ -91,6 +94,7 @@ Examples here!!
 ```
 Examples here!!
 ```
+
 ## Authors
 
 * **Camilo Bayona** - *Initial work* - [cbayonao](https://github.com/cbanao)
