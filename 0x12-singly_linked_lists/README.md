@@ -57,7 +57,6 @@ typedef struct list_s
 ```
 Examples here!
 ```
-
 ### [1. List lengt](./1-list_len.c)
 #### Write a function that returns the number of elements in a linked list_t list.
 
