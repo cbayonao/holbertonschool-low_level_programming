@@ -5,6 +5,12 @@
 # Prerequisites
 *.d
 *-main.c
+a
+b
+c
+d
+e
+hello
 # Object files
 *.o
 *.ko

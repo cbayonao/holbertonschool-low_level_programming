@@ -2,6 +2,16 @@
 # Prerequisites
 *.d
 *main.c
+a
+b
+c
+d
+e
+f
+g
+h
+i
+j
 # Object files
 *.o
 *.ko
