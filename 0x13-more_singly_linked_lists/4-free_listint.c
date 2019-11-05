@@ -1,6 +1,6 @@
 #include "lists.h"
 /**
- * free_list - Check
+ * free_listint - Check
  *@head: unsigned int
  *Return: x
  */
