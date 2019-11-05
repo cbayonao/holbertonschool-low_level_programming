@@ -1,7 +1,8 @@
 #include "lists.h"
 /**
- * pop_listint - print singly linked list.
+ * get_nodeint_at_index - print singly linked list.
  * @head: pointer to list.
+ * @index: unsigned int.
  *
  * Return: int.
  */
