@@ -1,7 +1,7 @@
 #include "holberton.h"
 /**
- * sum_listint - print singly linked list.
- * @head: pointer to list.
+ * binary_to_uint - print singly linked list.
+ * @b: pointer to list.
  *
  * Return: int.
  */
