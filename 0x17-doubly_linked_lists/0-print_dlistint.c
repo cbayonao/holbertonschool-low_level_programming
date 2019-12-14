@@ -1,14 +1,14 @@
 #include "lists.h"
 /**
- * print_listint - Check
+ * print_dlistint - Check
  *@h: unsigned int
  *Return: x
  */
-size_t print_listint(const listint_t *h)
+size_t print_dlistint(const dlistint_t *h)
 {
-	long int current = 0;
+	int current = 0;
 
-	while (h != NULL)
+	while (h)
 	{
 		printf("%d\n", h->n);
 		h = h->next;
