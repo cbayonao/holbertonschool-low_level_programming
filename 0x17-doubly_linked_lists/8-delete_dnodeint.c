@@ -1,38 +1,37 @@
 #include "lists.h"
 
 /**
- * delete_nodeint_at_index - Search and delet a node that you want.
- * @head: My pointer to nodes.
- * @index: The node for eliminate.
- * Return: 1 if is succes and -1 if it fail.
+ * delete_dnodeint_at_index - Search and destroy
+ * @head: Pointer
+ * @index: Node to destroy
+ * Return: int.
  */
-int delete_nodeint_at_index(listint_t **head, unsigned int index)
+int delete_dnodeint_at_index(dlistint_t **head, unsigned int index)
 {
-	listint_t *tmp;
-	listint_t *tmp2;
+	dlistint_t *tmpx, *tmpy;
 	unsigned int i = 0;
 
 	if (*head && head)
 	{
-		tmp = *head;
+		tmpx = *head;
 
 		if (index == 0)
 		{
-			*head = tmp->next;
-			free(tmp);
+			*head = tmpx->next;
+			free(tmpx);
 		}
 		else
 		{
 			while (i != index - 1)
 			{
-				tmp = tmp->next;
-				if (tmp == NULL)
+				tmpx = tmpx->next;
+				if (tmpx == NULL)
 					return (-1);
 				i++;
 			}
-			tmp2 = tmp->next;
-			tmp->next = tmp->next->next;
-			free(tmp2);
+			tmpy = tmpx->next;
+			tmpx->next = tmpx->next->next;
+			free(tmpy);
 		}
 		return (1);
 	}
