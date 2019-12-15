@@ -4,11 +4,11 @@
  *@h: unsigned int
  *Return: x
  */
-size_t listint_len(const listint_t *h)
+size_t dlistint_len(const dlistint_t *h)
 {
 	int x;
 
-	for (x = 0; h != NULL; x++)
+	for (x = 0; h; x++)
 	{
 		h = h->next;
 	}
