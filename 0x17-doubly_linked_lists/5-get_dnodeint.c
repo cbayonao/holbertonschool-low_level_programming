@@ -1,12 +1,12 @@
 #include "lists.h"
 /**
- * get_nodeint_at_index - print singly linked list.
+ * get_dnodeint_at_index - print doubly linked list.
  * @head: pointer to list.
  * @index: unsigned int.
  *
  * Return: int.
  */
-listint_t *get_nodeint_at_index(listint_t *head, unsigned int index)
+dlistint_t *get_dnodeint_at_index(dlistint_t *head, unsigned int index)
 {
 	unsigned int x;
 
