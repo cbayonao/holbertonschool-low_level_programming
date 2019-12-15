@@ -1,14 +1,14 @@
 #include "lists.h"
 /**
- * sum_listint - print singly linked list.
+ * sum_dlistint - print singly linked list.
  * @head: pointer to list.
  *
  * Return: int.
  */
-int sum_listint(listint_t *head)
+int sum_dlistint(dlistint_t *head)
 {
 	int num;
-	listint_t *tmp;
+	dlistint_t *tmp;
 
 	tmp = head;
 
