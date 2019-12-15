@@ -1,13 +1,13 @@
 #include "lists.h"
 /**
- * add_nodeint - Check
+ * add_dnodeint - Check
  *@head: unsigned int
  *@n: int const
  *Return: x
  */
-listint_t *add_nodeint(listint_t **head, const int n)
+dlistint_t *add_dnodeint(dlistint_t **head, const int n)
 {
-	listint_t *node = malloc(sizeof(listint_t));
+	dlistint_t *node = malloc(sizeof(dlistint_t));
 
 	if (node)
 	{
