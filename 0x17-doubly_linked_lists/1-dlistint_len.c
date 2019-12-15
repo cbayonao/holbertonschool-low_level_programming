@@ -1,6 +1,6 @@
 #include "lists.h"
 /**
- * listint_len - Check
+ * dlistint_len - Check
  *@h: unsigned int
  *Return: x
  */
