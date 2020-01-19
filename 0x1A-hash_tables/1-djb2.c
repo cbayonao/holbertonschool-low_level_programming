@@ -1,6 +1,8 @@
 #include "hash_tables.h"
 /**
- *
+ * hash_djb2 - dbj2 function
+ * @str: Srting to convert
+ * Return: number hash
  */
 unsigned long int hash_djb2(const unsigned char *str)
 {
